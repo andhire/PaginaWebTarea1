@@ -1,0 +1,38 @@
+$margin: 10px;
+$background:rgb(126, 129, 123);
+$text_space: 0 10px;
+$font:sans-serif;
+
+.header {
+    background-color: $background;
+    color: white;
+     
+}
+.content{
+    margin-left: $margin;
+    margin-right: $margin;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: $font;
+}
+.logo{
+    height: 30px;
+    
+}
+body{
+    margin: 0px;
+}
+ul{
+    list-style: none;
+    display: flex;
+   
+    
+}
+a,li{
+    padding: $text_space;
+}
+a:hover{
+    color: yellow;
+}
+
