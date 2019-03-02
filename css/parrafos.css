@@ -1,0 +1,12 @@
+#parrafos {
+  display: inline-flex;
+  width: auto;
+  margin: 5%;
+}
+
+#parrafo {
+  text-align: justify;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}

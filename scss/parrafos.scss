@@ -1,0 +1,14 @@
+$pad: 5%;
+
+#parrafos {
+    display: inline-flex;
+    width: auto;
+    margin: $pad;
+}
+
+#parrafo {
+    text-align: justify;
+    width: 50%;
+    margin-left: $pad;
+    margin-right: $pad;
+}
