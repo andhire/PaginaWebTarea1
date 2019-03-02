@@ -28,7 +28,7 @@ ul {
   display: -ms-flexbox;
   display: flex; }
 
-a, li {
+.textspace {
   padding: 0 10px; }
 
 a:hover {

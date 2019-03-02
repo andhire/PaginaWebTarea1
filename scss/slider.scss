@@ -1,7 +1,9 @@
 $numImagnees:3;
+$font:sans-serif;
+
 .slider {
-	width: 95%;
-	margin: auto;
+	width: 100%;
+	margin: 0px;
 	overflow: hidden;
 }
 
@@ -9,11 +11,14 @@ $numImagnees:3;
 	display: flex;
 	padding: 0;
 	width: 100% * $numImagnees;
-	
+	margin: 0px;
+    padding: 0px;
 	animation: cambio 10s infinite alternate linear;
 }
 
 .slider li {
+    margin: 0px;
+    padding: 0px;
 	width: 100%;
 	list-style: none;
 }
@@ -37,11 +42,10 @@ $numImagnees:3;
     display: grid;
     grid-template-columns: auto auto;
 }
-b:hover{
-    color: yellow;
-}
+
 h1{
     color: white;
+    font-family: $font;
 }
 
 .botones{
@@ -56,13 +60,15 @@ h1{
     border-style: solid; 
     display: inline-grid;
     margin-bottom:10px; 
+    border-width: thin;
 }
-.boton2{
-    background-color: white;
+
+.boton1:hover{
     color: black;
-    padding: 2px 20px;
-    border-style: solid;    
+    background-color: white;
+    border-color: white;
 }
+
 @keyframes cambio {
 	16% {margin-left: 0;}
 	32% {margin-left: 0;}
