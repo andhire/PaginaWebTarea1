@@ -14,20 +14,22 @@ $font:sans-serif;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    height: 80px;
     font-family: $font;
 }
 .logo{
-    height: 30px;
+    height: 40px;
     
 }
 body{
     margin: 0px;
 }
+
 ul{
     list-style: none;
-    display: flex;
-   
-    
+    display: flex;   
+    text-transform: uppercase;
+    font-size: 13px; 
 }
 .textspace{
     padding: $text_space;

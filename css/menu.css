@@ -14,10 +14,11 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  height: 80px;
   font-family: sans-serif; }
 
 .logo {
-  height: 30px; }
+  height: 40px; }
 
 body {
   margin: 0px; }
@@ -26,7 +27,9 @@ ul {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  text-transform: uppercase;
+  font-size: 13px; }
 
 .textspace {
   padding: 0 10px; }
