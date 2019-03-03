@@ -1,0 +1,42 @@
+$background:rgb(126, 129, 123);
+
+footer {
+    background-color: $background;
+    padding: 0px 25px 0px 25px;
+}
+
+footer .center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo {
+    text-align: left;
+    width: 40%;
+}
+
+footer #footlogo {
+    height: 25px;
+}
+
+footer .copyright {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    width: 40%;
+}
+
+footer .social {
+    text-align: center;
+    margin-left: 100px;
+    width: 20%;
+}
+footer .social .icon-background {
+    color: white;
+}
+
+footer .social .icon-color {
+    color: $background;
+}
