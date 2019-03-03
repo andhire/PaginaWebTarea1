@@ -41,14 +41,19 @@
   -ms-grid-columns: auto auto;
   grid-template-columns: auto auto; }
 
+.grid-item {
+  margin-left: 10px; }
+
 h1 {
   color: white;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  text-transform: uppercase; }
 
 .botones {
   position: absolute;
   left: 15%;
-  top: 62%; }
+  top: 62%;
+  text-transform: uppercase; }
 
 .boton1 {
   color: white;

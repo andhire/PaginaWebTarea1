@@ -43,17 +43,23 @@ $font:sans-serif;
     grid-template-columns: auto auto;
 }
 
+.grid-item {
+    margin-left: 10px;
+}
+
 h1{
     color: white;
     font-family: $font;
+    text-transform: uppercase;
 }
 
 .botones{
     position: absolute;
     left: 15%;
     top:62%;
-
+    text-transform: uppercase;
 }
+
 .boton1{
     color: white;
     padding: 2px 20px;
